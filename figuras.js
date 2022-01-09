@@ -6,7 +6,7 @@ let areaC = (lado)=> lado * lado;
 
 
 document.write(
-    `<strong>El lado del Cuadrado mide:</strong>
+    `<strong><p>El lado del Cuadrado mide:</strong>
     <br>${5}cm<p>
     <strong>El perímetro es de:</strong>
     <br>${perimetroC(5)}cm<p>
@@ -61,3 +61,21 @@ document.write(
     <strong>El área es de:</strong>
     <br>${areaCirculo(4)}`
 );
+
+
+// Aquí interactuamos con HTML
+function calcularPerimetroCuadrado() {
+    let input =  document.getElementById("InputCuadrado");
+    let value = input.value;
+
+    let per =  perimetroC(value);
+    alert(`El Perímetro del cuadrado es de: ${per}`)
+};
+
+function calcularAreaCuadrado() {
+    let input =  document.getElementById("InputCuadrado");
+    let value = input.value;
+
+    let area =  areaC(value);
+    alert(`El Área del cuadrado es de: ${area}`)
+};
