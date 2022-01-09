@@ -15,20 +15,54 @@
     </header>
 
 <section>
-<h2>Calcula el área y perímetro de un Cuadrado</h2>
+<h2>Calcula el Área y Perímetro de un Cuadrado</h2>
 <form>
     <label for="InputCuadrado">
         Escribe cuánto mide cada lado de tu cuadrado:
     </label>
     <input id="InputCuadrado" type="number" />
-    <button type="number" onclick="calcularPerimetroCuadrado()">
-        Calcular el perímetro
-    </button>
     <button type="number" onclick="calcularAreaCuadrado()">
-        Calcular el área
+        Calcular Área
+    </button>
+    <button type="number" onclick="calcularPerimetroCuadrado()">
+        Calcular Perímetro
     </button>
 </form>
 </section>
+
+<section>
+    <h2>Calcula la Altura de un Triángulo Isóceles</h2>
+    <form>
+        <label for="InputTrianguloI">
+            Escribe cuánto mide cada lado de tu cuadrado:<p>
+            Lado 1 <input id="InputTrianguloIL1" type="number" size="15"/>
+        </label> 
+        Lado 2 <input id="InputTrianguloIL2" type="number" />
+        Base <input id="InputTrianguloIB" type="number" />
+        <button type="number" onclick="calcularAlturaTrianguloI()">
+            Calcular Altura
+        </button>
+    </form>
+    </section>
+
+    <section>
+        <h2>Calcula el Área, la Circunferencia y/o el Diámetro de un Círculo</h2>
+        <form>
+            <label for="InputCirculo">
+                Escribe el rádio del Círculo:
+            </label>
+            <input id="InputRadio" type="number" />
+            <button type="number" onclick="calcularAreaCirculo()">
+                Calcular Área
+            </button>
+            <button type="number" onclick="calcularCircunferencia()">
+                Calcular Circunferencia
+            </button>
+            <button type="number" onclick="calcularDiametro()">
+                Calcular Diámetro
+            </button>
+        </form>
+        </section>
 
         <script src="figuras.js"></script>
 </body>
