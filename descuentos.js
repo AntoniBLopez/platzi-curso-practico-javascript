@@ -18,5 +18,5 @@ function clickPriceDiscount() {
     let resultadoPrecio = calcularPrecioConDescuento(valorPrice, valorDiscount);
 
     let resultPrice = document.getElementById("ResultPrice");
-    return resultPrice.innerText = `El precio con descuento es de: ${resultadoPrecio}`
+    return resultPrice.innerText = `El precio con descuento del ${valorDiscount}% es de: ${resultadoPrecio}`
 };
