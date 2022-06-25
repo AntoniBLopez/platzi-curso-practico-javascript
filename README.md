@@ -1,4 +1,4 @@
-# 3 ejercicios para completar el curso práctico de Javascript
+# ♦ 3 ejercicios para completar el curso práctico de Javascript
 
 ## Taller #1: Figuras Geométricas
 
