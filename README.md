@@ -1,6 +1,4 @@
-# platzi-curso-practico-javascript
-
-...
+# 3 ejercicios para completar el curso práctico de Javascript
 
 ## Taller #1: Figuras Geométricas
 
@@ -23,3 +21,5 @@
 - Segundo paso: implementar las fórmulas en JavaScript
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JavaScript con HTML
+
+Curso finalizado 🎉
